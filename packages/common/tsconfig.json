@@ -1,0 +1,16 @@
+{
+  // Extends the monorepo base configuration
+  "extends": "../../tsconfig.base.json",
+
+  // Package-specific options for 'common'
+  "compilerOptions": {
+  "composite": true, // Enables incremental compilation (required for project references)
+  "outDir": "dist", // Output directory for compiled files
+  "rootDir": "src"  // Root directory for source files
+  },
+
+  // Files included in the compilation
+  "include": [
+    "src/**/*"
+  ]
+}

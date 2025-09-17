@@ -1,0 +1,28 @@
+{
+  // Base TypeScript configuration for all packages
+  "compilerOptions": {
+    // Language and module settings
+    "target": "ES2022", // Output language level
+    "module": "ES2022", // Module system
+    "moduleResolution": "bundler", // How modules get resolved
+    "lib": ["ES2022"], // Standard library
+
+    // Output settings
+    "outDir": "dist", // Output directory
+    "rootDir": "src", // Root source directory
+
+    // Declaration files
+    "declaration": true, // Generate .d.ts files
+    "declarationMap": true, // Generate .d.ts.map files
+
+    // Strictness and checks
+    "strict": true, // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true, // File name case consistency
+    "skipLibCheck": true, // Skip type checking of declaration files
+
+    // Interop and module features
+    "esModuleInterop": false, // Disable synthetic default imports
+    "resolveJsonModule": true, // Allow importing .json files
+    "experimentalDecorators": false // Decorators support (disabled)
+  }
+}

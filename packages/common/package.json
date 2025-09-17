@@ -1,0 +1,21 @@
+{
+  "name": "@monorepo/common",
+  "version": "0.0.1",
+  "description": "Shared utilities and types for mono repo",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist tsconfig.tsbuildinfo",
+    "test": "vitest run --coverage",
+    "build": "tsc -b"
+  }
+}
