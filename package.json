@@ -14,7 +14,8 @@
     "test": "npm run test --workspace=@monorepo/common",
     "build": "npm run build --workspace=@monorepo/common && npm run build --workspace=@monorepo/cli",
     "start": "npm run start --workspace=@monorepo/cli",
-    "sonar": "dotenv -e .env -- sonar-scanner"
+    "sonar": "dotenv -e .env -- sonar-scanner",
+    "sonar:ci": "sonar-scanner"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
