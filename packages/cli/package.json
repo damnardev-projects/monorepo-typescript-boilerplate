@@ -1,0 +1,20 @@
+{
+  "name": "@monorepo/cli",
+  "version": "0.0.1",
+  "description": "Command-line interface for the mono repo",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "mono": "./dist/index.js"
+  },
+  "scripts": {
+    "clean": "rimraf dist tsconfig.tsbuildinfo",
+    "build": "tsc -b",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@monorepo/common": "^0.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+.idea/
+.scannerwork/
+**/node_modules/
+**/coverage/
+**/dist/
+**/tsconfig.tsbuildinfo
+.vscode/
+.env
