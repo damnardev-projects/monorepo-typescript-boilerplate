@@ -9,6 +9,9 @@ on:
 jobs:
   compile-and-test:
     runs-on: ubuntu-latest
+    
+    permissions: {}
+
     strategy:
       matrix:
         node-version: [18, 20, 22]

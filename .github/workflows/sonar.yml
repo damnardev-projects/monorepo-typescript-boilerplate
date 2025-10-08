@@ -8,6 +8,8 @@ jobs:
   sonar:
     runs-on: ubuntu-latest
 
+    permissions: {}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
