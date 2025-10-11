@@ -15,8 +15,8 @@ TypeScript Monorepo Boilerplate est une configuration prête à l'emploi qui fou
 
 ### Versions Principales
 
-- **TypeScript** : 5.9.2
-- **ESLint** : 9.35.0
+- **TypeScript** : 5.9.3
+- **ESLint** : 9.37.0
 - **Vitest** : 3.2.4
 
 ### Structure du Projet
