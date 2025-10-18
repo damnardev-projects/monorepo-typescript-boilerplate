@@ -16,7 +16,7 @@ TypeScript Monorepo Boilerplate is a ready-to-use setup providing a streamlined 
 ### Main Versions
 
 - **TypeScript**: 5.9.3
-- **ESLint**: 9.37.0
+- **ESLint**: 9.38.0
 - **Vitest**: 3.2.4
 
 ### Project Structure
